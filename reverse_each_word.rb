@@ -1,4 +1,5 @@
 def reverse_each_word(sentence1)
+  sentence2 = []
   words = sentence1.split()
   words.each do |x|
     x.reverse!
@@ -7,6 +8,7 @@ def reverse_each_word(sentence1)
 end
 
 def reverse_each_word(sentence1)
+  sentence2 = []
   words = sentence1.split()
   words.collect do |x|
     x.reverse!
